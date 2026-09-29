@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nougari Deekshitha | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h2 class="logo">Deekshitha</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Nougari Deekshitha</span></h1>
+
+            <h2>Student & Web Developer</h2>
+
+            <p>
+                I am passionate about technology, programming,
+                web development and creating innovative projects.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <div class="about-box">
+            <div class="profile">
+                <div class="profile-circle">ND</div>
+            </div>
+
+            <div class="about-text">
+                <h3>Hi, I'm Nougari Deekshitha</h3>
+
+                <p>
+                    I am a passionate student interested in
+                    web development and software technology.
+                    I enjoy learning new programming concepts
+                    and developing useful applications.
+                </p>
+
+                <p>
+                    My goal is to improve my technical skills
+                    and build creative projects that solve
+                    real-world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating structured and responsive web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing beautiful and responsive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interaction and functionality to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Learning algorithms, logic and problem solving.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Campus Shortest Path Finder</h3>
+                <p>
+                    A project that finds the shortest route
+                    between campus locations using Dijkstra's algorithm.
+                </p>
+                <button onclick="showProject('Campus Shortest Path Finder')">
+                    View Project
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>Hand Gesture Sound System</h3>
+                <p>
+                    A web-based project that uses hand gestures
+                    to control sound operations.
+                </p>
+                <button onclick="showProject('Hand Gesture Sound System')">
+                    View Project
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>ERP Login System</h3>
+                <p>
+                    A simple ERP interface containing login,
+                    registration and admin panels.
+                </p>
+                <button onclick="showProject('ERP Login System')">
+                    View Project
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact-box">
+
+            <form onsubmit="sendMessage(event)">
+
+                <input type="text" id="name"
+                       placeholder="Your Name" required>
+
+                <input type="email" id="email"
+                       placeholder="Your Email" required>
+
+                <textarea id="message"
+                          placeholder="Your Message"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div class="contact-info">
+                <h3>Nougari Deekshitha</h3>
+
+                <p>📧 Email: deekshithanougari707-email@example.com</p>
+                <p>📱 Phone: +91 9391740730</p>
+                <p>📍 Location: India</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Nougari Deekshitha. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
